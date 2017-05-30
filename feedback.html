@@ -344,6 +344,7 @@ function sendFeedback() {
   forminput.name = "feedback";
   forminput.value = final_transcript;
   feedbackform.appendChild(forminput);
+  document.body.appendChild(feedbackform);
   feedbackform.submit();
 }
 
